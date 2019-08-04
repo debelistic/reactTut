@@ -1,20 +1,14 @@
 import React from 'react';
+import TodoItem from './components/TodoItem';
 
 
 const Todo = () => {
   return(
-    <div>
-      <input type="checkbox"/>
-      <p>Placeholder</p>
-
-      <input type="checkbox"/>
-      <p>Placeholder</p>
-
-      <input type="checkbox"/>
-      <p>Placeholder</p>
-
-      <input type="checkbox"/>
-      <p>Placeholder</p>
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   )
 }
