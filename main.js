@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Todo from './todoApp/TodoApp';
+import Events from './events/App';
 import './styles/TodoApp.css';
 
-ReactDOM.render(<Todo />, document.getElementById('app'));
+ReactDOM.render(<Events />, document.getElementById('app'));
