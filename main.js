@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Todo from './todoApp/TodoApp';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './apicalls/App';
 import './styles/TodoApp.css';
 
-ReactDOM.render(<Todo />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
